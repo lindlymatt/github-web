@@ -1,31 +1,23 @@
-<!-- Page Title -->
-<h1><a href="#/">Github: Workflow Basics</a></h1>
-<hr />
-<h2>Step Two: Clone, Pull and Branch</h2>
-<!-- Page Content -->
-<section id="text-section">
-  <article id="text-box">
-    <p class="text">After getting the collaborators set up, the individual members of the development team can begin to get their own personal environments established. At this point, you will be using "git clone" on the repository to get it onto your local machine.
-      It does not matter where you clone into, but it's generally good to clone into a project-specific destination.</p><br />
-    <div class="code-command">
-      <code>git clone `github information`</code>
-    </div><br />
-    <p class="text">After cloning the repo into your repository, you can use your typical terminal commands to make sure that your local machine is exactly where it needs to be. Making sure your local master branch is on par with the rest of the group. This is standard
-      feature branch workflow, and needs to occur on every branch.</p><br />
-    <div class="code-command">
-      <code>git pull origin master</code>
-    </div><br />
-    <p class="text">Great, your local machine is up to par! Now, you're going to be making a "feature branch", this is a GitHub specific type of thing. Making a branch basically seperates your work from the master branch, and the one key philosophy is: "feature branches"
-      can be broken, destroyed, tested on and eventually get working; however, your "master branch" must ALWAYS be deployable, compilable and functioning as your MVP. You want to use good naming convention with the branches as well, since they can be
-      seen by the other developers. Name them according to their purpose, such as "authenticate-oauth", "update-indexpage" and etc.</p>
-    <br />
-    <div class="code-command">
-      <code>git checkout -b `branch_name`</code>
-    </div><br />
-    <p class="text">This command will get your terminal and development onto that seperate branch that was discussed earlier. Using "checkout", basically takes your development onto that branch. It's a version of committing, somewhat. You can revert back to working
-      branches, scrap work done on branches, and more. They are awesome! Let's head to the next page.</p>
-    <div class="image-block">
-      <i class="fa fa-arrow-circle-o-left arrow-left arrow-2-l" aria-hidden="true"></i> | <i class="fa fa-arrow-circle-o-right arrow-right arrow-2-r" aria-hidden="true"></i>
-    </div>
-  </article>
-</section>
+<article id="text-box">
+  <p class="text">After getting the collaborators set up, the individual members of the development team can begin to get their own personal environments established. At this point, you will be using "git clone" on the repository to get it onto your local machine.
+    It does not matter where you clone into, but it's generally good to clone into a project-specific destination.</p><br />
+  <div class="code-command">
+    <code>git clone `github information`</code>
+  </div><br />
+  <p class="text">After cloning the repo into your repository, you can use your typical terminal commands to make sure that your local machine is exactly where it needs to be. Making sure your local master branch is on par with the rest of the group. This is standard
+    feature branch workflow, and needs to occur on every branch.</p><br />
+  <div class="code-command">
+    <code>git pull origin master</code>
+  </div><br />
+  <p class="text">Great, your local machine is up to par! Now, you're going to be making a "feature branch", this is a GitHub specific type of thing. Making a branch basically seperates your work from the master branch, and the one key philosophy is: "feature branches"
+    can be broken, destroyed, tested on and eventually get working; however, your "master branch" must ALWAYS be deployable, compilable and functioning as your MVP. You want to use good naming convention with the branches as well, since they can be
+    seen by the other developers. Name them according to their purpose, such as "authenticate-oauth", "update-indexpage" and etc.</p>
+  <br />
+  <div class="code-command">
+    <code>git checkout -b `branch_name`</code>
+  </div><br />
+  <p class="text">This command will get your terminal and development onto that seperate branch that was discussed earlier. Using "checkout", basically takes your development onto that branch. It's a version of committing, somewhat. You can revert back to working
+    branches, scrap work done on branches, and more. They are awesome! Let's head to the next page.</p>
+</article>
+
+<!-- Step Two: Clone, Pull and Branch -->

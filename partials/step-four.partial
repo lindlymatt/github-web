@@ -1,32 +1,24 @@
-<!-- Page Title -->
-<h1><a href="#/">Github: Workflow Basics</a></h1>
-<hr />
-<h2>Step Four: Handle the Pull Request, Merge & Repeat</h2>
-<!-- Page Content -->
-<section id="text-section">
-  <article id="text-box">
-    <p class="text">This is your last step. Hooray! You'll be handling your pull request on this one, with GitHub's automatic merge complication detection, this makes it very simple. You can merge your branch through the pull request by clicking "pull requests" on
-      the GitHub repo's page. Here's an example of that: </p>
-    <div class="image-block">
-      <img src="images/pull-request-block.png" />
-    </div>
-    <p class="text">After clicking into this page, as well as clicking the button that says "New Pull Request", you'll see the pull request & compare page. This page shows you several things; the two branches you want to compare (base being the master branch, and compare
-      being the feature branch) this will show you one of two things. You're either all good, no merge conflicts, no issues and you're ready to merge, OR you're going to run into issues and it will help you understand where the confusion is. Oh, it
-      also shows commits!</p>
-    <div class="image-block">
-      <img src="images/top-pull.png" />
-    </div>
-    <p class="text">Nice! This is pretty simple. You can now use the "write" text-box to add comments to your pull request, and then click "create pull request" to officially push through your changes. After clicking that button, you'll see a "merge" button appear,
-      that's the button you need to press. It will automatically merge your branch, and your features, into the master branch. That's what we wanted. No merge conflicts, no issues, nothing! You'll be looking for this...</p>
-    <div class="image-block">
-      <img src="images/merge-button.png" />
-    </div>
-    <p class="text">After clicking the merge, your master branch is now officially up to date, and you've completed the first official branching procedure for GitHub! It wasn't so hard, was it? You can use this simple guide to reference your workflow whenever you need.
-      If you stick to the workflow, and exactly repeat this process, it is the most basic and fundamental way to use the feature branching workflow designed by GitHub. If you need any additional information, there are plenty of documents online for
-      more reference. Good luck!
-    </p>
-    <div class="image-block">
-      <i class="fa fa-arrow-circle-o-left arrow-left arrow-4-l" aria-hidden="true"></i>
-    </div>
-  </article>
-</section>
+<article id="text-box">
+  <p class="text">This is your last step. Hooray! You'll be handling your pull request on this one, with GitHub's automatic merge complication detection, this makes it very simple. You can merge your branch through the pull request by clicking "pull requests" on
+    the GitHub repo's page. Here's an example of that: </p>
+  <div class="image-block">
+    <img src="images/pull-request-block.png" />
+  </div>
+  <p class="text">After clicking into this page, as well as clicking the button that says "New Pull Request", you'll see the pull request & compare page. This page shows you several things; the two branches you want to compare (base being the master branch, and compare
+    being the feature branch) this will show you one of two things. You're either all good, no merge conflicts, no issues and you're ready to merge, OR you're going to run into issues and it will help you understand where the confusion is. Oh, it
+    also shows commits!</p>
+  <div class="image-block">
+    <img src="images/top-pull.png" />
+  </div>
+  <p class="text">Nice! This is pretty simple. You can now use the "write" text-box to add comments to your pull request, and then click "create pull request" to officially push through your changes. After clicking that button, you'll see a "merge" button appear,
+    that's the button you need to press. It will automatically merge your branch, and your features, into the master branch. That's what we wanted. No merge conflicts, no issues, nothing! You'll be looking for this...</p>
+  <div class="image-block">
+    <img src="images/merge-button.png" />
+  </div>
+  <p class="text">After clicking the merge, your master branch is now officially up to date, and you've completed the first official branching procedure for GitHub! It wasn't so hard, was it? You can use this simple guide to reference your workflow whenever you need.
+    If you stick to the workflow, and exactly repeat this process, it is the most basic and fundamental way to use the feature branching workflow designed by GitHub. If you need any additional information, there are plenty of documents online for
+    more reference. Good luck!
+  </p>
+</article>
+
+<!-- Step Four: Handle the Pull Request, Merge & Repeat -->

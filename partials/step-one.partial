@@ -1,30 +1,22 @@
-<!-- Page Title -->
-<h1><a href="#/">Github: Workflow Basics</a></h1>
-<hr />
-<h2>Step One: Make a Repo, Add Collaborators</h2>
-<!-- Page Content -->
-<section id="text-section">
-  <article id="text-box">
-    <p class="text">Your most crucial task to understanding, using and working with Github is making a repository to store your code. This will be the main hub for your projects, the control center for your projects. Remember; this guide only explains the very basic
-      details of using Github, as you get better, you'll find more features that were created to help further production.</p>
-    <center>
-      <form action="https://www.github.com">
-        <input class="button-in-text" type="submit" value="Go to Github" />
-      </form>
-    </center>
-    <p class="text">After creating your repo, the repo-creator needs to add his/her team-members to the repo as collaborators. This will give them the ability to merge and discuss the branches, and work with the standard "feature branch" flow. You can add the collaborators
-      by clicking the "Settings" link on the repository itself.</p>
-    <div class="image-block">
-      <img src="images/github-settings.png" />
-    </div>
-    <p class="text">After clicking the settings, you can click "Collaborators" on the left-hand side. This will pull up a window that allows you to enter Github usernames which will auto-populate results. Use this to add your members to your list.</p>
-    <div class="image-block">
-      <img src="images/github-collab.png" />
-    </div>
-    <p class="text">When you're done adding the members to this page, you're going to get to work on making sure everyone begins in the same place. As long as your team all begins in the same place, it makes it much more simple to work on the different branches, bringing
-      it together to prevent larger and more significant merge issues.</p>
-    <div class="image-block">
-      <i class="fa fa-arrow-circle-o-right arrow-right arrow-1-r" aria-hidden="true"></i>
-    </div>
-  </article>
-</section>
+<article id="text-box">
+  <p class="text">Your most crucial task to understanding, using and working with Github is making a repository to store your code. This will be the main hub for your projects, the control center for your projects. Remember; this guide only explains the very basic
+    details of using Github, as you get better, you'll find more features that were created to help further production.</p>
+  <center>
+    <form action="https://www.github.com">
+      <input class="button-in-text" type="submit" value="Go to Github" />
+    </form>
+  </center>
+  <p class="text">After creating your repo, the repo-creator needs to add his/her team-members to the repo as collaborators. This will give them the ability to merge and discuss the branches, and work with the standard "feature branch" flow. You can add the collaborators
+    by clicking the "Settings" link on the repository itself.</p>
+  <div class="image-block">
+    <img src="images/github-settings.png" />
+  </div>
+  <p class="text">After clicking the settings, you can click "Collaborators" on the left-hand side. This will pull up a window that allows you to enter Github usernames which will auto-populate results. Use this to add your members to your list.</p>
+  <div class="image-block">
+    <img src="images/github-collab.png" />
+  </div>
+  <p class="text">When you're done adding the members to this page, you're going to get to work on making sure everyone begins in the same place. As long as your team all begins in the same place, it makes it much more simple to work on the different branches, bringing
+    it together to prevent larger and more significant merge issues.</p>
+</article>
+
+<!-- Step One: Make a Repo, Add Collaborators -->
