@@ -1,0 +1,95 @@
+* {
+  margin, padding: 0;
+}
+
+body {
+  background: #474747 url(../images/bg.png);
+  margin: auto;
+  max-width: 1060px;
+}
+
+
+/* Text Management */
+
+h1 a {
+  display: block;
+  text-decoration: none;
+  font: 3em "Roboto", Helvetica, Arial, Sans-Serif;
+  font-weight: 1000;
+  letter-spacing: -5px;
+  text-align: center;
+  color: #999;
+  text-shadow: 0px 3px 8px #2a2a2a;
+}
+
+h1 a:hover {
+  color: #a0a0a0;
+  text-shadow: 0px 5px 8px #2a2a2a;
+}
+
+h2 {
+  font: 2em "Roboto", Tahoma, Helvetica, Arial, Sans-Serif;
+  text-align: left;
+  color: #D2D2D2;
+  text-shadow: 0px 2px 3px #565960;
+}
+
+code {
+  border: 1px white solid;
+  padding: 15px;
+  border-radius: 15px;
+}
+
+
+/* Button Management */
+
+.button-in-text {
+  height: 35px;
+  width: 15%;
+  font: .8em "Roboto", Tahoma, Helvetica, Arial, Sans-Serif;
+  border-radius: 5px;
+}
+
+.arrow-right {
+  font-size: 20px;
+}
+
+.arrow-left, .arrow-right {
+  font-size: 40px !important;
+}
+
+
+/* Management Structure */
+
+#text-box {
+  padding: 10px;
+  margin: 0;
+  color: #D3D3D3;
+}
+
+#text-section {
+  font: 1.3em "Roboto", Tahoma, Helvetica, Arial, Sans-Serif;
+  background: #222;
+  padding: 10px;
+  color: #555;
+  text-shadow: 0px 2px 3px #171717;
+  -webkit-box-shadow: 0px 2px 3px #555;
+  -moz-box-shadow: 0px 2px 3px #555;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+}
+
+.image-block {
+  font-size: 50px;
+  text-align: center;
+  width: 100%;
+}
+
+.code-command {
+  text-align: center;
+}
+
+img {
+  width: 100%;
+  border-radius: 5px;
+}

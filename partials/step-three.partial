@@ -1,0 +1,28 @@
+<!-- Page Title -->
+<h1><a href="#/">Github: Workflow Basics</a></h1>
+<hr />
+<h2>Step Three: Work, Add, Commit, Pull, Push</h2>
+<!-- Page Content -->
+<section id="text-section">
+  <article id="text-box">
+    <p class="text">This is the time that you start working on your feature. If you're adding authentication, then stay in your branch until that authentication is done. A feature should be working before attempting to merge it into the branch. You can stay in the
+      feature branch as long as needed until the feature is compeleted. More branches are not better, good branches are better. After you're done working on your branch, use your standard workflow for adding and committing changes, and while you're
+      at it, make sure your local master is staying up to date with your team's master branch.</p><br />
+    <div class="code-command">
+      <code>git add -A OR gaa</code>
+      <code>git commit -m `message` OR gcmsg `message`</code>
+      <code>git pull origin master</code>
+    </div><br />
+    <p class="text">This last scheme did several things for you: first of all, it shows any merge conflicts during your pull. It will help to know your master branch is working, as mentioned, it should be the most functionality version of your application capable of
+      deployment. It also added and committed the changes you made in the branch for your own version control... now, push your changes and commits to your feature branch on GitHub. Make sure NOT to push this branch to the master branch, this is crucial.</p><br
+    />
+    <div class="code-command">
+      <code>git push origin `branch_name`</code>
+    </div><br />
+    <p class="text">Wonderful! You've now pushed your changes and your feature to GitHub for merge comparison to the master branch, you're almost there. Now, you're going to be handling a pull request. This will result in your created feature branch merging into your
+      group's master branch. Did I mention that GitHub will automatically detect any merge failures right on the pull request? You want to assume everything is good, but let's head over to the next page.</p>
+    <div class="image-block">
+      <i class="fa fa-arrow-circle-o-left arrow-left arrow-3-l" aria-hidden="true"></i> | <i class="fa fa-arrow-circle-o-right arrow-right arrow-3-r" aria-hidden="true"></i>
+    </div>
+  </article>
+</section>
