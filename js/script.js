@@ -31,17 +31,17 @@ function determinePage() {
       $steps.text('Step One: Make a Repo & Add Collaborators');
     });
   } else if (pageNumber === 2) {
-    $body.load('partials/step-two.partial' () => {
+    $body.load('partials/step-two.partial', () => {
       let $steps = $('.steps-text');
       $steps.text('Step Two: Clone, Pull & Branch');
     });
   } else if (pageNumber === 3) {
-    $body.load('partials/step-three.partial' () => {
+    $body.load('partials/step-three.partial', () => {
       let $steps = $('.steps-text');
       $steps.text('Step Three: Work, Add, Commit, Pull & Push');
     });
   } else if (pageNumber === 4) {
-    $body.load('partials/step-four.partial' () => {
+    $body.load('partials/step-four.partial', () => {
       let $steps = $('.steps-text');
       $steps.text('Step Four: Handle the Pull Request, Merge & Repeat');
     });
